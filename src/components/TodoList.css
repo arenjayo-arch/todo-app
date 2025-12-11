@@ -1,0 +1,21 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+}
+
+.empty-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.empty-state p:last-child {
+  font-size: 1.1em;
+  color: #666;
+}
